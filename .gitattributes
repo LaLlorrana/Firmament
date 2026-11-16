@@ -1,0 +1,3 @@
+# Keep test data files with LF line endings on all platforms.
+# The sack parser tests contain newlines inside strings; CRLF checkouts on Windows break them.
+*.snbt text eol=lf
